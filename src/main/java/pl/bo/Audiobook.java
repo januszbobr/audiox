@@ -13,4 +13,11 @@ public class Audiobook {
     public void setTytul(String tytul) {
         this.tytul = tytul;
     }
+
+    @Override
+    public String toString() {
+        return "Audiobook{" +
+                "tytul='" + tytul + '\'' +
+                '}';
+    }
 }
