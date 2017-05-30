@@ -7,6 +7,6 @@ public class Start {
 
 
     public static void main(String[] args) {
-        System.out.println("Start started");
+        System.out.println("Start started from b1");
     }
 }
