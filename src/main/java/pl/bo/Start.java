@@ -7,6 +7,9 @@ public class Start {
 
 
     public static void main(String[] args) {
-        System.out.println("Start started from b1");
+
+        Audiobook a = new Audiobook();
+        a.setTytul("Alicja w krainie czarów");
+        System.out.println("słuchamy: " + a);
     }
 }
